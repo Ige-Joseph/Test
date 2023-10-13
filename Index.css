@@ -1,0 +1,172 @@
+body{
+  background-color: rgb(26, 27, 34);
+}
+
+.A {
+background-color: rgb(0, 0, 0);
+position: fixed;
+top: 0px;
+height: 100%;
+color: white;
+width: 500px;
+left: -500px;
+  
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content: space-between;
+font-family: roboto;
+font-size: 30px;
+transition: left 0.5s ease-in-out;
+background-color: linear-gradient(to right, #ff0000, #ffffff);
+padding: 10px 0px 1000px 0;
+z-index: 20;
+
+ 
+ 
+}
+
+.a {
+
+text-align:center;
+margin-bottom: 10px;
+}
+
+
+
+
+.sm-icon{
+width: 30px;
+
+
+}
+
+
+.Social-Media {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+width: 200px;
+
+margin-bottom: 40px;
+
+margin-left: 10px;
+
+}
+
+.SM{
+animation: slidetoright 2s ease;
+}
+
+
+@keyframes slidetoright  {
+from {
+  opacity: 0;
+  margin-left: -55px;
+}
+
+to {
+  opacity: 1;
+  margin-left: 10px;
+}
+}
+
+
+
+
+.innerMenu {
+background-color:rgba(255, 255, 255, 0.077);
+border: none;
+border-radius:5px;
+margin-right: 20px; 
+
+}
+
+
+.innerMenuDiv{
+display: flex;
+justify-content: end;
+}
+
+.menuButton {
+background-color: rgba(236, 236, 236, 0);
+border: none;
+border-radius: 10px;
+}
+
+.body-content {
+position: relative;
+left: 0px;
+transition: left 0.5s ease-in-out;
+/* background-color: black; */
+/* height: 2000px; */
+left: 0;
+right: 0;
+/* z-index: -1; */
+
+}
+
+
+
+.Header-gradient {
+background: linear-gradient(45deg, #ffd900, #ff0077, #3E5151, #513e3e);
+position: fixed;
+left: 0;
+right: 0;
+height: 300px;
+
+clip-path: rect(0, 200px, 200px, 0);
+}
+
+
+.HeadMenuIcon {
+height: 40px;
+}
+
+
+
+.header-Nav{
+position: relative;
+z-index: 10;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+.dp{
+height: 45px;
+border-radius: 50px;
+}
+
+
+.nebula {
+height: 300px;
+width: 100%;
+
+animation: ImageTransition 5s ease;
+}
+
+
+@keyframes ImageTransition {
+from {
+  opacity: 0;
+}
+to{
+  opacity: 1;
+}
+}
+
+
+
+
+.Portflio {
+color: #ffffff;
+font-family: montserrat;
+font-weight: bold;
+font-size:23px;
+}
+
+
